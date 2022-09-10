@@ -1,0 +1,19 @@
+# Exclude data but keep folder structure
+data/**
+!data/.gitkeep
+!data/**/
+!data/**/.gitkeep
+
+# Exclude models but keep folder structure
+models/**
+!models/.gitkeep
+
+# Miscellaneous directories
+.DS_Store/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Ignore byte-compiled stuff
+__pycache__/
